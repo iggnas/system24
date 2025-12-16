@@ -21,13 +21,13 @@ body {
     letter-spacing: -0.05ch; /* decreases letter spacing for better readability. recommended on monospace fonts.*/
 
     /* sizes */
-    --gap: 12px; /* spacing between panels */
+    --gap: 6px; /* spacing between panels */
     --divider-thickness: 4px; /* thickness of unread messages divider and highlighted message borders */
     --border-thickness: 2px; /* thickness of borders around main panels. DOES NOT AFFECT OTHER BORDERS */
     --border-hover-transition: 0.2s ease; /* transition for borders when hovered */
 
     /* animation/transition options */
-    --animations: on; /* off: disable animations/transitions, on: enable animations/transitions */
+    --animations: off; /* off: disable animations/transitions, on: enable animations/transitions */
     --list-item-transition: 0.2s ease; /* transition for list items */
     --dms-icon-svg-transition: 0.4s ease; /* transition for the dms icon */
 
@@ -76,14 +76,14 @@ body {
     --ascii-loader: system24; /* off: default, system24: use system24 ascii loader, cats: use cats loader */
 
     /* panel labels */
-    --panel-labels: on; /* off: default, on: add labels to panels */
+    --panel-labels: off; /* off: default, on: add labels to panels */
     --label-color: var(--text-muted); /* color of labels */
     --label-font-weight: 500; /* font weight of labels */
 }
 
 /* color options */
 :root {
-    --colors: on; /* off: discord default colors, on: midnight custom colors */
+    --colors: off; /* off: discord default colors, on: midnight custom colors */
 
     /* text colors */
     --text-0: var(--bg-4); /* text on colored elements */
