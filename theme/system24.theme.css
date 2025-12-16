@@ -68,12 +68,12 @@ body {
     --small-user-panel: on; /* off: default user panel, on: smaller user panel like in old discord */
 
     /* unrounding options */
-    --unrounding: on; /* off: default, on: remove rounded corners from panels */
+    --unrounding: off; /* off: default, on: remove rounded corners from panels */
 
     /* styling options */
     --custom-spotify-bar: on; /* off: default, on: custom text-like spotify progress bar */
     --ascii-titles: on; /* off: default, on: use ascii font for titles at the start of a channel */
-    --ascii-loader: system24; /* off: default, system24: use system24 ascii loader, cats: use cats loader */
+    --ascii-loader: cats; /* off: default, system24: use system24 ascii loader, cats: use cats loader */
 
     /* panel labels */
     --panel-labels: off; /* off: default, on: add labels to panels */
@@ -99,8 +99,8 @@ body {
     --bg-3: oklch(23% 0 0); /* spacing, secondary elements */
     --bg-4: oklch(19% 0 0); /* main background color */
     --hover: oklch(54% 0 0 / 0.1); /* channels and buttons when hovered */
-    --active: oklch(54% 0 0 / 0.2); /* channels and buttons when clicked or selected */
-    --active-2: oklch(54% 0 0 / 0.3); /* extra state for transparent buttons */
+    --active: var(--accent-1); /* channels and buttons when clicked or selected */
+    --active-2: var(--accent-1); /* extra state for transparent buttons */
     --message-hover: var(--hover); /* messages when hovered */
 
     /* accent colors */
